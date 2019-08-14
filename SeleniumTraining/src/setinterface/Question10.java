@@ -1,7 +1,10 @@
 package setinterface;
-
+/*
+ * 10. Write programs to sort the user-defined class objects based on String value in descending order in 2 possible ways using Comparator interface and print them in console
+ */
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 
 public class Question10
 {public static void main(String[] args) {
@@ -14,13 +17,25 @@ public class Question10
 	al.add(new Patel1("Bill4",4));
 	
 	
-	System.out.println("----- Using String ascending order-----");
+	System.out.println("----- Using First way String ascending order-----");
 	
 	Collections.sort(al, new BillNumberDescComparator());
+	
+	//Collections.sort(al, Collections.reverseOrder(new BillNumberComparators()));
+	
 	for (Patel1 patel : al) {
 		System.out.println(patel.getBillId()+" "+patel.getBillNumber());
 	}
+
+	System.out.println("----- Using second way String ascending order-----");
 	
+	
+	
+	Collections.sort(al, Collections.reverseOrder(new BillNumberComparators()));
+	
+	for (Patel1 patel : al) {
+		System.out.println(patel.getBillId()+" "+patel.getBillNumber());
+	}
 }
 
 }

@@ -2,6 +2,7 @@ package setinterface;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 /*
  * 9. Write programs to sort the user-defined class objects based on String value in ascending order using Comparator interface and print them in console.
  */
@@ -19,7 +20,10 @@ public class Question9
 	
 	System.out.println("----- Using String ascending order-----");
 	
-	Collections.sort(al, new BillNumberComparator());
+	//Collections.sort(al, new BillNumberComparator());
+	
+	Collections.sort(al, Comparator.comparing(Patel::getBillId));
+
 	for (Patel patel : al) {
 		System.out.println(patel.getBillId()+" "+patel.getBillNumber());
 	}
