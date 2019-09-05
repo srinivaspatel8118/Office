@@ -6,19 +6,20 @@ package javabasics;
  */
 public class Question9 {
 
-	String str1, str2;
+	String a, b;
 	
 	public void method1(String a,String b)
 	{
-		this.str1=a;
-		this.str2=b;
-		System.out.println("instance string are "+str1+" "+str2);
+		this.a=a;
+		this.b=b;
+		System.out.println("instance string are "+a+" "+b);
 	}
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Question9 ref= new Question9();
 		ref.method1("srinivas", "patel");
+		
 	}
 
 }
