@@ -6,13 +6,13 @@ package javabasics;
  */
 public class Question9 {
 
-	String a, b;
+	String str1, str2;
 	
 	public void method1(String a,String b)
 	{
-		this.a=a;
-		this.b=b;
-		System.out.println("instance string are "+a+" "+b);
+		this.str1=a;
+		this.str2=b;
+		System.out.println("instance string are "+str1+" "+str2);
 	}
 	
 	public static void main(String[] args) {

@@ -20,9 +20,9 @@ public class Question14 {
 	
 	public static void main(String[] args) {
 		boolean valid=new Question14().methodboolean();//Calling instance method
-		System.out.println("The boolean value from instance method is "+valid);
+		System.out.println("The boolean value from instance method is "+valid);//true
 		String str1=Question14.methodString();//Calling static method
-		System.out.println("The String value from static method is "+str1);
+		System.out.println("The String value from static method is "+str1);//Local Variable
 		
 	}
 

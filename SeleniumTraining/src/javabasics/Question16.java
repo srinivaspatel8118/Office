@@ -10,12 +10,12 @@ public class Question16 {
 	
 	String returningInstance()
 	{
-		
+		String str1="Balu";
 		return this.str1;
 	}
 
 	public static void main(String[] args) {
-				
+	
 			System.out.println("The returned value from instance method is " +new Question16().returningInstance());//returned value
 		
 		
