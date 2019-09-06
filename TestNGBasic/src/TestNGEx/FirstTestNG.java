@@ -21,7 +21,7 @@ public class FirstTestNG {
 	@AfterSuite
 	void AfterSuite()
 	{
-		System.out.println("First TestNG AfterSuite");
+		System.out.println("First TestNG AfterSuite  ");
 	}
 	
 	@BeforeClass
