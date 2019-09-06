@@ -1,61 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="3" total="5" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30" started-at="2019-09-06T05:09:17Z" finished-at="2019-09-06T05:09:17Z">
+  <suite name="Suite" duration-ms="42" started-at="2019-09-06T10:06:22Z" finished-at="2019-09-06T10:06:22Z">
     <groups>
+      <group name="san">
+        <method signature="GroupTestNG.method3()[pri:0, instance:TestNGEx.GroupTestNG@56f4468b]" name="method3" class="TestNGEx.GroupTestNG"/>
+        <method signature="GroupTestNG.method4()[pri:0, instance:TestNGEx.GroupTestNG@56f4468b]" name="method4" class="TestNGEx.GroupTestNG"/>
+      </group> <!-- san -->
     </groups>
-    <test name="Default test" duration-ms="30" started-at="2019-09-06T05:09:17Z" finished-at="2019-09-06T05:09:17Z">
-      <class name="TestNGEx.FirstTestNG">
-        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:TestNGEx.FirstTestNG@7f9a81e8]" name="BeforeSuite" is-config="true" duration-ms="9" started-at="2019-09-06T05:09:17Z" finished-at="2019-09-06T05:09:17Z">
+    <test name="Test" duration-ms="42" started-at="2019-09-06T10:06:22Z" finished-at="2019-09-06T10:06:22Z">
+      <class name="TestNGEx.GroupTestNG">
+        <test-method status="PASS" signature="method3()[pri:0, instance:TestNGEx.GroupTestNG@56f4468b]" name="method3" duration-ms="12" started-at="2019-09-06T10:06:22Z" finished-at="2019-09-06T10:06:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BeforeSuite -->
-        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:TestNGEx.FirstTestNG@7f9a81e8]" name="BeforeTest" is-config="true" duration-ms="0" started-at="2019-09-06T05:09:17Z" finished-at="2019-09-06T05:09:17Z">
+        </test-method> <!-- method3 -->
+        <test-method status="PASS" signature="method4()[pri:0, instance:TestNGEx.GroupTestNG@56f4468b]" name="method4" duration-ms="2" started-at="2019-09-06T10:06:22Z" finished-at="2019-09-06T10:06:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BeforeTest -->
-        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:TestNGEx.FirstTestNG@7f9a81e8]" name="BeforeClass" is-config="true" duration-ms="1" started-at="2019-09-06T05:09:17Z" finished-at="2019-09-06T05:09:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeClass -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:TestNGEx.FirstTestNG@7f9a81e8]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2019-09-06T05:09:17Z" finished-at="2019-09-06T05:09:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="amethod1()[pri:0, instance:TestNGEx.FirstTestNG@7f9a81e8]" name="amethod1" duration-ms="7" started-at="2019-09-06T05:09:17Z" finished-at="2019-09-06T05:09:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- amethod1 -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:TestNGEx.FirstTestNG@7f9a81e8]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2019-09-06T05:09:17Z" finished-at="2019-09-06T05:09:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:TestNGEx.FirstTestNG@7f9a81e8]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2019-09-06T05:09:17Z" finished-at="2019-09-06T05:09:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="amethod2()[pri:0, instance:TestNGEx.FirstTestNG@7f9a81e8]" name="amethod2" duration-ms="1" started-at="2019-09-06T05:09:17Z" finished-at="2019-09-06T05:09:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- amethod2 -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:TestNGEx.FirstTestNG@7f9a81e8]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2019-09-06T05:09:17Z" finished-at="2019-09-06T05:09:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="AfterClass()[pri:0, instance:TestNGEx.FirstTestNG@7f9a81e8]" name="AfterClass" is-config="true" duration-ms="0" started-at="2019-09-06T05:09:17Z" finished-at="2019-09-06T05:09:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterClass -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:TestNGEx.FirstTestNG@7f9a81e8]" name="AfterTest" is-config="true" duration-ms="0" started-at="2019-09-06T05:09:17Z" finished-at="2019-09-06T05:09:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterTest -->
-        <test-method status="PASS" signature="AfterSuite()[pri:0, instance:TestNGEx.FirstTestNG@7f9a81e8]" name="AfterSuite" is-config="true" duration-ms="1" started-at="2019-09-06T05:09:18Z" finished-at="2019-09-06T05:09:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterSuite -->
-      </class> <!-- TestNGEx.FirstTestNG -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- method4 -->
+      </class> <!-- TestNGEx.GroupTestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
