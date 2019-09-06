@@ -10,7 +10,7 @@ public class Question10
 {public static void main(String[] args) {
 	// TODO Auto-generated method stub
 	ArrayList<Patel1> al=new ArrayList<Patel1>();
-	al.add(new Patel1("Bill11",1));
+	al.add(new Patel1("Bill1",1));
 	al.add(new Patel1("Bill2",2));
 	al.add(new Patel1("Bill3",33));
 	al.add(new Patel1("Bill5",55));
