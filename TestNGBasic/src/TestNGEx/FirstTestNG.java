@@ -16,12 +16,12 @@ public class FirstTestNG {
 	@BeforeSuite
 	void BeforeSuite()
 	{
-		System.out.println("First TestNG  BeforeSuite");
+		System.out.println("First TestNG  Before Suite");
 	}
 	@AfterSuite
 	void AfterSuite()
 	{
-		System.out.println("First TestNG AfterSuite  ");
+		System.out.println("First TestNG After Suite  ");
 	}
 	
 	@BeforeClass
