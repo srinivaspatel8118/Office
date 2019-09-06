@@ -19,6 +19,7 @@ public class Question9 {
 		// TODO Auto-generated method stub
 		Question9 ref= new Question9();
 		ref.method1("srinivas", "patel");
+		
 	}
 
 }
