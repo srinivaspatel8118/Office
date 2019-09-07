@@ -6,11 +6,11 @@ print the returned value in console.
  */
 public class Question16 {
 	
-	String str1="Patel";
+   String str1="Patel";
 	
 	String returningInstance()
 	{
-		String str1="Balu";
+		String str1="Baluu";
 		return this.str1;
 	}
 
