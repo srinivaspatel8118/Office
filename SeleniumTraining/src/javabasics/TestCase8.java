@@ -7,13 +7,16 @@ public class TestCase8 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String str="Patel";
-		switch(str)
+		
+		int i=65;
+		String str="UnMatched";
+		char s='A';
+		switch(i)
 		{
-		case "Srinivas": System.out.println("UnMatched");
+		case 'A': System.out.println("UnMatched");
 							break;
 		
-		case "Patel": System.out.println("Matched");
+		case 'B': System.out.println("Matched");
 							break;
 		default: System.out.println("default");
 							

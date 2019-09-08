@@ -3,9 +3,6 @@ package comparisons;
  * 12. Write a program to verify whether the entries of two HashMaps having String as key and user-defined class object as value are equal or not.
  */
 import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Set;
-import java.util.Map.Entry;
 
 public class Question12 {
 

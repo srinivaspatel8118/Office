@@ -12,7 +12,7 @@ public class TestCase7 {
 			}while(false);
 		*/
 		
-		int i=10;
+		int i=30;
 		do {
 			System.out.println("It will execute only once because i s not greater than 20");	
 			}while(i>20);

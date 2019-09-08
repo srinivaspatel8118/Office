@@ -1,9 +1,6 @@
 package setinterface;
 
-import java.util.Collections;
-import java.util.HashSet;
 import java.util.Iterator;
-import java.util.ListIterator;
 import java.util.Set;
 import java.util.Spliterator;
 import java.util.TreeSet;
