@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Groups Test-01">
+		<groups>
+			<run>
+				<include name="default" />
+			</run>
+		</groups>
+		<classes>
+			 <class name="TestNGBasics.TestNGGroup"/>
+		</classes>
+	</test>
+	
+	<test name="Groups Test-02">
+		<groups>
+			<run>
+				<include name="Sanity"/>
+				<exclude name="Reg" />
+			</run>
+		</groups>
+		<classes>
+			 <class name="TestNGBasics.TestNGGroup"/>
+		</classes>
+	</test>
+</suite> <!-- Suite -->
