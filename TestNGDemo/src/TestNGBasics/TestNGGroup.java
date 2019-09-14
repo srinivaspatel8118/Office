@@ -39,5 +39,9 @@ public class TestNGGroup {
         System.out.println("tc_Groups_07 belonging to volumetest group.");
     }
 	
+    @Test(dependsOnGroups = {"sanity"})
+    public void tc_Groups_08() {
+        System.out.println("tc_Groups_05 method executes if all test cases belonging to sanity group are passed.");
+    }
 	
 }
