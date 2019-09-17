@@ -34,7 +34,7 @@ public class DataProviderExcelData7 {
 	}
 	@Test(priority=1)
 	public void tc_Login() throws SQLException, InterruptedException{
-		System.out.println("printed");
+
 		driver.findElement(By.id("TxtEmail")).sendKeys("nkasu@xtglobal.com");
 		driver.findElement(By.id("TxtPassword")).sendKeys("xeno@1234");
 		driver.findElement(By.id("BtnLogin")).click();
