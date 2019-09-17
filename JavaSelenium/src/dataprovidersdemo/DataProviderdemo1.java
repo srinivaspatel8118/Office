@@ -10,7 +10,10 @@ public class DataProviderdemo1 {
 	{
 		System.out.println("The DataProvider Values are "+str1+"  "+str2);
 	}
-	
+	/**
+	 * @return instance data Provider
+	 * 
+	 */
 	@DataProvider
 	public Object[][] data()
 	{

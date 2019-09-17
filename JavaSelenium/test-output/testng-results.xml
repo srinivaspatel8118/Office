@@ -1,80 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="57682" started-at="2019-09-17T05:52:53Z" finished-at="2019-09-17T05:53:50Z">
+  <suite name="DataProvider Parameter Example Suite" duration-ms="50" started-at="2019-09-17T11:21:20Z" finished-at="2019-09-17T11:21:20Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="57682" started-at="2019-09-17T05:52:53Z" finished-at="2019-09-17T05:53:50Z">
-      <class name="dataproviders.DataProviderExcelData7">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:dataproviders.DataProviderExcelData7@464bee09]" name="beforeClass" is-config="true" duration-ms="5987" started-at="2019-09-17T05:52:53Z" finished-at="2019-09-17T05:52:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="tc_Login()[pri:1, instance:dataproviders.DataProviderExcelData7@464bee09]" name="tc_Login" duration-ms="15519" started-at="2019-09-17T05:52:59Z" finished-at="2019-09-17T05:53:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc_Login -->
-        <test-method status="PASS" signature="tc_CreateVendor(dataproviders.Vendors)[pri:2, instance:dataproviders.DataProviderExcelData7@464bee09]" name="tc_CreateVendor" duration-ms="7364" started-at="2019-09-17T05:53:15Z" data-provider="Vendors Object Iterator" finished-at="2019-09-17T05:53:22Z">
+    <test name="RegTest" duration-ms="50" started-at="2019-09-17T11:21:20Z" finished-at="2019-09-17T11:21:20Z">
+      <class name="dataprovidersdemo.RegTest">
+        <test-method status="PASS" signature="regTest(java.lang.String)[pri:0, instance:dataprovidersdemo.RegTest@6a41eaa2]" name="regTest" duration-ms="12" started-at="2019-09-17T11:21:20Z" data-provider="testtype" finished-at="2019-09-17T11:21:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[dataproviders.Vendors@5357c287]]>
+                <![CDATA[Reg Test Data]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc_CreateVendor -->
-        <test-method status="PASS" signature="tc_CreateVendor(dataproviders.Vendors)[pri:2, instance:dataproviders.DataProviderExcelData7@464bee09]" name="tc_CreateVendor" duration-ms="6911" started-at="2019-09-17T05:53:22Z" data-provider="Vendors Object Iterator" finished-at="2019-09-17T05:53:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[dataproviders.Vendors@2783717b]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc_CreateVendor -->
-        <test-method status="PASS" signature="tc_CreateVendor(dataproviders.Vendors)[pri:2, instance:dataproviders.DataProviderExcelData7@464bee09]" name="tc_CreateVendor" duration-ms="6991" started-at="2019-09-17T05:53:29Z" data-provider="Vendors Object Iterator" finished-at="2019-09-17T05:53:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[dataproviders.Vendors@22d6f11]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc_CreateVendor -->
-        <test-method status="PASS" signature="tc_CreateVendor(dataproviders.Vendors)[pri:2, instance:dataproviders.DataProviderExcelData7@464bee09]" name="tc_CreateVendor" duration-ms="6549" started-at="2019-09-17T05:53:36Z" data-provider="Vendors Object Iterator" finished-at="2019-09-17T05:53:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[dataproviders.Vendors@62fe6067]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc_CreateVendor -->
-        <test-method status="PASS" signature="tc_CreateVendor(dataproviders.Vendors)[pri:2, instance:dataproviders.DataProviderExcelData7@464bee09]" name="tc_CreateVendor" duration-ms="6509" started-at="2019-09-17T05:53:43Z" data-provider="Vendors Object Iterator" finished-at="2019-09-17T05:53:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[dataproviders.Vendors@29e6eb25]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc_CreateVendor -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:dataproviders.DataProviderExcelData7@464bee09]" name="tearDown" is-config="true" duration-ms="1015" started-at="2019-09-17T05:53:49Z" finished-at="2019-09-17T05:53:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- dataproviders.DataProviderExcelData7 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- regTest -->
+      </class> <!-- dataprovidersdemo.RegTest -->
+    </test> <!-- RegTest -->
+  </suite> <!-- DataProvider Parameter Example Suite -->
 </testng-results>
