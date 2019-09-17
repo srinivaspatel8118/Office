@@ -3,15 +3,15 @@ package dataprovidersdemo;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class DataProviderdemo1 {
+public class Dataproviderdemo2 {
 
-	@Test(dataProvider="data")
+	@Test(dataProvider="getdata")
 	public void intanceDataProvider(String str1, String str2)
 	{
 		System.out.println("The DataProvider Values are "+str1+"  "+str2);
 	}
 	
-	@DataProvider
+	@DataProvider(name="getdata")
 	public Object[][] data()
 	{
 		/*Object[][] obj=new Object[1][2];
