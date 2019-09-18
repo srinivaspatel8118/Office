@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DataProvider Parameter Example Suite]">
+  <test thread-count="5" name="SanityTest(failed)">
+    <classes>
+      <class name="dataprovidersdemo.RegTest">
+        <methods>
+          <include name="regTest"/>
+        </methods>
+      </class> <!-- dataprovidersdemo.RegTest -->
+    </classes>
+  </test> <!-- SanityTest(failed) -->
+</suite> <!-- Failed suite [DataProvider Parameter Example Suite] -->
