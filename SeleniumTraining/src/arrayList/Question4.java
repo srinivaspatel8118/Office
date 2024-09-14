@@ -27,14 +27,15 @@ public class Question4 {
 		ar2.add("Raju");
 	
 		//a. Delete all the objects from fist ArrayList that are contained in second ArrayList
-				/*ar1.removeAll(ar2);
+				ar1.removeAll(ar2);
 				System.out.println("Array after deleting the objects from fist ArrayList that are contained in second ArrayList");
-				System.out.println(ar1);*/
-		//b. Delete all the objects from fist ArrayList that are NOT contained in second ArrayList
-				ar1.retainAll(ar2);
-				System.out.println("Aray after deleting all the objects from fist ArrayList that are NOT contained in second ArrayList");
 				System.out.println(ar1);
-	
+		//b. Delete all the objects from fist ArrayList that are NOT contained in second ArrayList
+		/*
+		 * ar1.retainAll(ar2); System.out.
+		 * println("Aray after deleting all the objects from fist ArrayList that are NOT contained in second ArrayList"
+		 * ); System.out.println(ar1);
+		 */	
 	}
 
 }
