@@ -25,7 +25,7 @@ public class Question4 {
 		ar2.add("Mohan");
 		ar2.add("vishnu");
 		ar2.add("Raju");
-		ar2.add("Priya");	
+		ar2.add("ChhetriPriya");	
 		//a. Delete all the objects from fist ArrayList that are contained in second ArrayList
 				ar1.removeAll(ar2);
 				System.out.println("Array after deleting the objects from fist ArrayList that are contained in second ArrayList");
