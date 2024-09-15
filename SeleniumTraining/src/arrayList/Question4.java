@@ -36,6 +36,8 @@ public class Question4 {
 		 * println("Aray after deleting all the objects from fist ArrayList that are NOT contained in second ArrayList"
 		 * ); System.out.println(ar1);
 		 */	
+				
+		System.out.println("Just new line in the class");
 	}
 
 }
